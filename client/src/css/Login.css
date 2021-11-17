@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.login-form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+input {
+  margin: 10px 0;
+  display: block;
+}
+
+button, .button {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 5px;
+}
